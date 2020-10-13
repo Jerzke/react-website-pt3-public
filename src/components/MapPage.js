@@ -1,20 +1,15 @@
 import React from 'react' ;
 import '../App.css' ;
 import './HeroSection.css' ;
-import { ButtonReturn } from './ButtonReturn';
 
 function MapPage() {
     return (
         <div className="hero-container">
-            <p>Fast Charging</p>
-            <div className="hero-btns">
-                <ButtonReturn className='btns' buttonStyle='btn--outline'
-                buttonSize='btn--large'>
-                 Stop Fast Charging
-                </ButtonReturn>
-
-                
-            </div>
+            <p>Map of Chargers</p>
+            <p> PLACE HOLDER REMOVE THIS MAP ASAP</p>
+           
+        
+        
         </div>
     )
 }

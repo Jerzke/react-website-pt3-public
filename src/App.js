@@ -9,6 +9,7 @@ import ChargingStarted from './components/ChargingStarted'
 import ChargingFastStarted from './components/ChargingFastStarted'
 import SignIn from './components/SignIn'
 import MapPage from './components/MapPage'
+import PricingPage from './components/PricingPage'
 function App() {
   return (
  <>
@@ -21,7 +22,8 @@ function App() {
        <Route path="/Charging/Started" exact component ={ChargingStarted} />
        <Route path ="/ChargingFast/Started" exact component ={ChargingFastStarted} />
        <Route path ="/SignIn" exact component ={SignIn}/>
-       <Route path ="Map" exact component ={MapPage} />
+       <Route path ="/Map" exact component ={MapPage} />
+       <Route path ="/Pricing" exact component ={PricingPage} />
      </Switch>
      </Router>)
    </> 
